@@ -20,3 +20,12 @@ console.log(fruits)
 
 fruits.splice(1, 1)
 console.log(fruits)
+
+// ================================================================================================
+
+var wweStars = ["Stone Cold", "Hulk Hogan", "Undertaker", "John Cena", "The Rock"]
+console.log(wweStars)
+console.log(wweStars[3])
+wweStars.push("Ric Flair")
+wweStars.splice(3, 1)
+console.log(wweStars.reverse())
