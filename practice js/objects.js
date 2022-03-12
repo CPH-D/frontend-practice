@@ -80,8 +80,8 @@ var men = [{
 },
 ]
 
-console.log(men)
+// console.log(men)
 // console.log(men[1].name)
-men[0].props = "chain"
-var underdog = men[0].props
-console.log(men)
+// men[0].props = "chain"
+// var underdog = men[0].props
+// console.log(men)
