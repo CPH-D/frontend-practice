@@ -85,3 +85,19 @@ var men = [{
 // men[0].props = "chain"
 // var underdog = men[0].props
 // console.log(men)
+
+// ================================================================================================
+
+// Declare a variable named student with an object inside that has properties name, age, occupation (use your information) then print the variable
+
+
+
+// Add a property with your birthday as a string and must be like this object ["key"] then print the variable student
+
+
+
+// Add an array with all your education but using .key and inside the array you must have other objects with the information of each of the schools you went to like the name, years in the school, and graduation year and then rpint the variable student
+
+
+
+// then print one of the schools name
