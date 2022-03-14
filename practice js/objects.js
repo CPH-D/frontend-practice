@@ -1,4 +1,4 @@
-var student = {
+var studnt = {
     id: 85,
     firstName: "Christopher",
     lastName: "Hernandez",
@@ -10,16 +10,16 @@ var student = {
     classes: ["math", "english", "gym", "cooking"]
 }
 
-// console.log(student)
+// console.log(studnt)
 // console.log("===============================================================")
-// console.log(student.lastName)
+// console.log(studnt.lastName)
 // console.log("===============================================================")
-// console.log(student.Grade(99))
+// console.log(studnt.Grade(99))
 // console.log("===============================================================")
-// console.log(student.classes[3])
+// console.log(studnt.classes[3])
 // console.log("===============================================================")
-// console.log(student.classes.push("history"))
-// console.log(student.classes)
+// console.log(studnt.classes.push("history"))
+// console.log(studnt.classes)
 // console.log("===============================================================")
 // console.log("===============================================================")
 
@@ -90,14 +90,36 @@ var men = [{
 
 // Declare a variable named student with an object inside that has properties name, age, occupation (use your information) then print the variable
 
+var student = {
+    name: "Chris",
+    age: 37,
+    occupation: "Email-Dev"
+}
 
+console.log(student)
+console.log("===============================================================================")
 
 // Add a property with your birthday as a string and must be like this object ["key"] then print the variable student
 
-
+student["birthday"] = "2/15/85"
+console.log(student)
+console.log("===============================================================================")
 
 // Add an array with all your education but using .key and inside the array you must have other objects with the information of each of the schools you went to like the name, years in the school, and graduation year and then rpint the variable student
 
+student.education = [{
+    name: "Lambda School",
+    graduation: 2020
+},
+{
+    name: "San Joaquin Valley College",
+    graduation: 2014
+}
+]
 
+console.log(student)
+console.log("===============================================================================")
 
 // then print one of the schools name
+
+console.log(student.education[1].name)
