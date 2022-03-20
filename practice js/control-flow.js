@@ -37,3 +37,48 @@ if (user == "Chris") {
 } else {
     console.log("User unknown.")
 }
+
+console.log("=================================================================")
+
+
+// switch statements can save you from doing if else functions
+
+userFirstLetter = "J"
+
+switch (userFirstLetter) {
+    case "N":
+        // code block
+        console.log("Hello Nancy")
+        break;
+    case "B":
+        // code block
+        console.log("Hello Brian")
+        break;
+    case "J":
+        // code block
+        console.log("Hello James")
+        break;
+    default:
+        // code block
+        console.log("Who are you?")
+}
+
+var userLikes = 20
+
+switch (userLikes) {
+    case 2:
+        // code block
+        console.log("Low amount of likes")
+        break;
+    case 20:
+        // code block
+        console.log("Moderate amount of likes")
+        break;
+    case 200:
+        // code block
+        console.log("High amount of likes")
+        break;
+    default:
+        // code block
+        console.log("How many likes?")
+}
