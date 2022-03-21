@@ -1,5 +1,20 @@
+var n;
+
+for (n = 0; n < 11; n++) {
+    console.log(n)
+}
+
+console.log("===============================================================")
+
+var names = ["Joe", "Charlie", "Stephanie", "Peter"]
 var i;
 
-for (i = 0; i < 11; i++) {
-    console.log(i)
+for (i = 0; i < 4; i++) {
+    if (i == 3) {
+        console.log(names[i] + " -- This is the last one.")
+    } else {
+        console.log(names[i])
+    }
 }
+
+console.log("===============================================================")
