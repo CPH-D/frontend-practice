@@ -53,3 +53,15 @@ for (s in stars) {
     console.log(stars[s].name)
 }
 
+console.log("===============================================================")
+
+// for-of-loop
+var mentors = [
+    { name: "jonathon" }, { name: "richard" }, { name: "rollo" }, { name: "stirling" }
+]
+
+var m = 0
+
+for (m of mentors) {
+    console.log(m.name)
+}
