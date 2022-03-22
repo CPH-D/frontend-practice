@@ -27,3 +27,15 @@ while (c < cars.length) {
     console.log(cars[c])
     c++
 }
+
+console.log("===============================================================")
+
+// do / while loop
+var cars2 = ["honda", "benz", "bmw"]
+var c2 = 0
+
+do {
+    console.log(c2)
+    c2++
+}
+while (c2 < 21)
