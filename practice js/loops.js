@@ -18,3 +18,12 @@ for (i = 0; i < 4; i++) {
 }
 
 console.log("===============================================================")
+
+// while loop
+var cars = ["honda", "benz", "bmw"]
+var c = 0;
+
+while (c < cars.length) {
+    console.log(cars[c])
+    c++
+}
