@@ -4,7 +4,7 @@ for (n = 0; n < 11; n++) {
     console.log(n)
 }
 
-console.log("===============================================================")
+console.log("============================================================")
 
 var names = ["Joe", "Charlie", "Stephanie", "Peter"]
 var i;
@@ -17,7 +17,7 @@ for (i = 0; i < 4; i++) {
     }
 }
 
-console.log("===============================================================")
+console.log("============================================================")
 
 // while loop
 var car = ["honda", "benz", "bmw"]
@@ -28,7 +28,7 @@ while (c < car.length) {
     c++
 }
 
-console.log("===============================================================")
+console.log("============================================================")
 
 // do / while loop
 var car2 = ["honda", "benz", "bmw"]
@@ -40,7 +40,7 @@ do {
 }
 while (c2 < 21)
 
-console.log("===============================================================")
+console.log("============================================================")
 
 // for-in-loop
 var stars = [
@@ -53,7 +53,7 @@ for (s in stars) {
     console.log(stars[s].name)
 }
 
-console.log("===============================================================")
+console.log("============================================================")
 
 // for-of-loop
 var mentors = [
@@ -65,3 +65,16 @@ var m = 0
 for (m of mentors) {
     console.log(m.name)
 }
+
+console.log("============================================================")
+console.log("=======================EXCERCISE============================")
+console.log("============================================================")
+
+// print your name 3 times in a loop
+
+
+// create an array named brands with 4 of your favorite name brands then choose whatever loop you like to print all 4 brands
+
+
+// create an array with objects inside that contain information of each brand but it must have name, product, and price inside.  then print a sentence that says "(brandname)'s product cost (price)"
+
