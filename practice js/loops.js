@@ -20,18 +20,18 @@ for (i = 0; i < 4; i++) {
 console.log("===============================================================")
 
 // while loop
-var cars = ["honda", "benz", "bmw"]
+var car = ["honda", "benz", "bmw"]
 var c = 0;
 
-while (c < cars.length) {
-    console.log(cars[c])
+while (c < car.length) {
+    console.log(car[c])
     c++
 }
 
 console.log("===============================================================")
 
 // do / while loop
-var cars2 = ["honda", "benz", "bmw"]
+var car2 = ["honda", "benz", "bmw"]
 var c2 = 0
 
 do {
@@ -39,3 +39,17 @@ do {
     c2++
 }
 while (c2 < 21)
+
+console.log("===============================================================")
+
+// for-in-loop
+var stars = [
+    { name: "steve" }, { name: "bret" }, { name: "eddie" }, { name: "chris" }
+]
+
+var s = 0
+
+for (s in stars) {
+    console.log(stars[s].name)
+}
+
