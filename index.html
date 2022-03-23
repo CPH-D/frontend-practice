@@ -14,7 +14,26 @@
         This is the first paragraph that I'm going to manipulate with javascript.
     </p>
 
+    <p>
+        This is my second paragraph.
+    </p>
+
+    <p>
+        This is my third paragraph.
+    </p>
+
     <script>
+        // selector to select all paragraphs
+        var p = document.querySelectorAll('p')
+        console.log(p)
+
+        // manipulate to target all paragraphs using loop
+        var i = 0
+        while (i < p.length) {
+            p[i].style.background = "blue"
+            p[i].style.color = "white"
+            i++
+        }
 
     </script>
     <script src="index.js"></script>
