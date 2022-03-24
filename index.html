@@ -22,6 +22,8 @@
         This is my third paragraph.
     </p>
 
+    <button class="myBtn">My Button</button>
+
     <script>
         // selector to select all paragraphs
         var p = document.querySelectorAll('p')
@@ -35,11 +37,22 @@
             i++
         }
 
-        // create a element
+        // create a element (a button, in this case)
         var btn = document.createElement("button")
         var btnText = document.createTextNode("CLICK ME")
         btn.appendChild(btnText)
         document.body.appendChild(btn)
+
+        // working with events
+        var myBtn = document.querySelector(".myBtn")
+
+        myBtn.onclick = function () {
+            testing()
+        }
+
+        function testing() {
+            console.log("TESTING THIS BUTTON!")
+        }
 
     </script>
     <script src="index.js"></script>
