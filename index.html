@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="index.css" type="text/css">
 </head>
 
-<body>
+<body onresize="myFunction()">
     <p>
         This is the first paragraph that I'm going to manipulate with javascript.
     </p>
@@ -21,6 +21,8 @@
     <p>
         This is my third paragraph.
     </p>
+
+    <h3 id="resizeDemo"></h3>
 
     <button class="myBtn">My Button</button>
 
@@ -52,6 +54,14 @@
 
         function testing() {
             console.log("TESTING THIS BUTTON!")
+        }
+
+        // resize window with notes
+        function myFunction() {
+            var w = window.outerWidth
+            var h = window.outerHeight
+            var resizeText = "Window size: width = " + w + ", height = " + h
+            document.getElementById("resizeDemo").innerHTML = resizeText
         }
 
     </script>
